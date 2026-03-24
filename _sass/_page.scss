@@ -411,4 +411,30 @@
   text-transform: uppercase;
 }
 
+.news-slider {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #f1f1f1;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+    
+    &:hover {
+      background: #999;
+    }
+  }
+}
+
 
