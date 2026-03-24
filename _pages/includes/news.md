@@ -1,6 +1,7 @@
 # 🔥 News
 
-<div class="news-slider">
+<div class="news-slider" style="max-height: 300px; overflow-y: auto; padding-right: 10px; scrollbar-width: thin; scrollbar-color: #ccc #f1f1f1;">
+
 - *2026.03*: I joined Bytedance <img src='./images/bytedance.jpg' style='width: 6em;'> as a Research Intern, working on Agentic MLLMs
 - *2026.03*: 🎉 One paper is accepted by CVPR 2026, keywords: MLLMs, Visual Perception, Pretraining. See you in Denver!
 - *2026.03*: 🎉 One paper is accepted by TMM, keywords: Incremental Learning
@@ -13,4 +14,22 @@
 - *2024.12*: 🎉 One paper is accepted by TCSVT, keywords: OOD, SSL
 - *2024.07*: 🎉 One paper is accepted by ECCV 2024, keywords: Incremental Learning, Semantic Segmentation
 - *2024.04*: 🎉 One paper is accepted by IJCAI 2024, keywords: GCD, SSL
+
 </div>
+
+<style>
+.news-slider::-webkit-scrollbar {
+  width: 6px;
+}
+.news-slider::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.news-slider::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+.news-slider::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+</style>
