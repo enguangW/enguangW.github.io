@@ -2,6 +2,4 @@ I am currently a third-year Master's student at the College of Computer Science,
 
 My research interests lie in **Multi-modal Large Language Models (MLLMs)** and **Representation Learning**. I firmly believe that representation is the eternal foundation of AI systems, and I am dedicated to exploring robust and efficient visual-centric representation.
 
-My research interests lie in **Multi-modal Large Language Models (MLLMs)** and **Representation Learning**. I firmly believe that representation is the eternal foundation of AI systems, and I am dedicated to exploring robust and efficient visual-centric representation.
-
-I am expected to graduate in June 2026. **I am currently actively seeking research-oriented job opportunities (Research Scientist/Engineer)**. If you have potential openings or are seeking any form of **academic cooperation**, please feel free to email me.
+I am expected to graduate in 2026.06. **I am currently actively seeking research-oriented job opportunities (Research Scientist/Engineer)**. If you have potential openings or are seeking any form of **academic cooperation**, please feel free to email me.
