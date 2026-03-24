@@ -1,4 +1,4 @@
-I am currently a third-year Master's student at the College of Computer Science, Nankai University (南开大学计算机学院), advised by [Xialei Liu (刘夏雷)](https://scholar.google.com/citations?user=akuWIJQAAAAJ) and [Ming-Ming Cheng (程明明)](https://mmcheng.net/cmm/). Prior to this, I received my bachelor's degree from the School of Artificial Intelligence, Xidian University (西安电子科技大学人工智能学院).
+I am currently a third-year Master's student at the College of Computer Science, Nankai University, advised by [Xialei Liu (刘夏雷)](https://scholar.google.com/citations?user=akuWIJQAAAAJ) and [Ming-Ming Cheng (程明明)](https://mmcheng.net/cmm/). Prior to this, I received my bachelor's degree from the School of Artificial Intelligence, Xidian University.
 
 My research interests lie in **Multi-modal Large Language Models (MLLMs)** and **Representation Learning**. I firmly believe that representation is the eternal foundation of AI systems, and I am dedicated to exploring robust and efficient visual-centric representation.
 
