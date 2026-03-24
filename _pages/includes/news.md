@@ -18,12 +18,33 @@
 .news-container {
   display: block;
   max-height: 200px;
-  overflow-y: scroll;
+  overflow-y: scroll; /* 强制开启垂直滚动轴 */
   padding-right: 15px;
+  
+  /* Firefox 浏览器强制显示滚动条 */
   scrollbar-width: thin;
   scrollbar-color: #999 #e0e0e0;
 }
-.news-container::-webkit-scrollbar { width: 8px; }
-.news-container::-webkit-scrollbar-track { background: #e0e0e0; border-radius: 4px; }
-.news-container::-webkit-scrollbar-thumb { background: #999; border-radius: 4px; }
+
+/* Chrome, Safari, Edge (WebKit 引擎) 强制显示滚动条 */
+.news-container::-webkit-scrollbar {
+  width: 8px; /* 设置滚动条宽度 */
+  display: block !important; /* 确保不被隐藏 */
+}
+
+.news-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* 滚动条轨道颜色（浅色） */
+  border-radius: 4px;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+  background: #999; /* 滚动条滑块颜色（深色） */
+  border-radius: 4px;
+  border: 1px solid #f1f1f1; /* 增加一点边框，让滑块更清晰 */
+}
+
+/* 即使鼠标不悬停也保持滑块颜色 */
+.news-container::-webkit-scrollbar-thumb:vertical {
+  min-height: 30px;
+}
 </style>
