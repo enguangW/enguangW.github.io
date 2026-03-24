@@ -17,8 +17,8 @@
 
 <style>
 .news-container {
-  max-height: 100px;
-  overflow-y: auto;
+  max-height: 200px;
+  overflow-y: scroll;
   padding-right: 10px;
   scrollbar-width: thin;
   scrollbar-color: #ccc #f1f1f1;
@@ -31,6 +31,7 @@
 .news-container::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 10px;
+  visibility: visible !important;
 }
 
 .news-container::-webkit-scrollbar-thumb {
