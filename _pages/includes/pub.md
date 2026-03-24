@@ -8,7 +8,7 @@
 [Predictive Regularization Against Visual Representation Degradation in Multimodal Large Language Models](https://arxiv.org/pdf/2603.20808) \\
 **Enguang Wang**, Qiang Wang, Yuanchen Wu, Ke Yan, Xinbin Yuan, Shouhong Ding, Xialei Liu, Ming-Ming Cheng
 
-- This paper conducts a systematic diagnosis to unveil the "visual representation degradation" phenomenon in MLLMs, identifying how language-driven training compromises internal visual fidelity at both global and patch levels.
+- This paper conducts a systematic diagnosis to unveil the visual representation degradation phenomenon in MLLMs at both global and patch levels, identifying this phenomenon as a visual sacrifice driven by the singular text-generation objective.
 - We introduce Predictive Regularization (PRe), a lightweight self-supervised framework that preserves core visual competence by forcing degraded intermediate features to predict initial visual anchors.
 - Experiments confirm that mitigating this visual degradation effectively boosts vision-language performance, underscoring the critical importance of fostering robust internal visual representations within MLLMs.
 </div>
