@@ -9,7 +9,7 @@
   </div>
 
   <div style="display: flex; align-items: flex-start;">
-    <div class='paper-box-image' style="flex: 0 0 30%; min-width: 200px; margin-right: 20px;">
+    <div class='paper-box-image' style="flex: 0 0 48%; min-width: 200px; margin-right: 20px;">
       <div>
         <div class="badge">CVPR 2026</div>
         <img src='images/pre.png' alt="sym" width="100%">
