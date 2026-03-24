@@ -15,17 +15,7 @@ performance, underscoring the critical importance of fostering robust internal v
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
-**Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
-
--To tackle the problem that the text encoder can not be used on the unlabelled data, this paper proposes a TES module converting visual embeddings into tokens of the CLIP’s text encoder to generate pseudo-text embeddings.
-- Through the proposed cross-modal instance consistency objective in our dual-branch framework, information from different modalities mutually enhances each other, producing more discriminative classification prototypes.
-- GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
-</div>
-</div>
 
 
 
