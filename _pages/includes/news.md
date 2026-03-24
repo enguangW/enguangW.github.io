@@ -19,27 +19,31 @@
 .news-container {
   max-height: 200px;
   overflow-y: scroll;
-  padding-right: 10px;
-  scrollbar-width: thin;
-  scrollbar-color: #ccc #f1f1f1;
+  padding-right: 15px;
+  scrollbar-width: 8px;
+  scrollbar-color: #999 #e0e0e0;
+  -webkit-overflow-scrolling: touch;
 }
 
 .news-container::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
+  background-color: #e0e0e0;
+  visibility: visible !important;
 }
 
 .news-container::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
+  background: #e0e0e0;
+  border-radius: 4px;
   visibility: visible !important;
 }
 
 .news-container::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 10px;
+  background: #999;
+  border-radius: 4px;
+  visibility: visible !important;
 }
 
 .news-container::-webkit-scrollbar-thumb:hover {
-  background: #999;
+  background: #666;
 }
 </style>
