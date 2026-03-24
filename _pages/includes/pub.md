@@ -10,7 +10,6 @@
 
 - This paper conducts a systematic diagnosis to unveil the visual representation degradation phenomenon in MLLMs, identifying this phenomenon as a visual sacrifice driven by the singular text-generation objective.
 - It introduces Predictive Regularization (PRe), a lightweight self-supervised framework that preserves core visual competence by forcing degraded intermediate features to predict initial visual anchors.
-- Experiments confirm that mitigating this visual degradation effectively boosts vision-language performance, underscoring the critical importance of fostering robust internal visual representations within MLLMs.
 </div>
 </div>
 
@@ -23,8 +22,7 @@
 **Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
 
 - This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
-- Through cross-modal distillation and multi-modal joint training, information from different modalities mutually enhances each other, producing more discriminative classification prototypes.
-- GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
+- Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
 </div>
 </div>
 
