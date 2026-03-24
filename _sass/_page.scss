@@ -18,7 +18,9 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    /* 尝试将参数用括号包裹，确保编译器识别为整体 */
+    @include span(10 of 12); 
+    float: right; /* 手动补充 last 的逻辑，避免 Mixin 内部逗号冲突 */
     @include prefix(0.5 of 12);
     @include suffix(0 of 12);
   }
@@ -411,30 +413,26 @@
   text-transform: uppercase;
 }
 
-/* News 滚动容器样式 */
-.news-scroll-container {
-  display: block;        /* 确保是块级元素 */
-  max-height: 250px;     /* 调低一点高度（约 5 行），确保内容溢出 */
-  overflow-y: auto;      /* 溢出时显示滚动条 */
-  overflow-x: hidden;
-  padding: 0 10px 0 0;   /* 留出滚动条空间 */
-  margin: 1em 0;
+/* 确保这段代码与上方代码块之间有一个空行 */
 
-  /* 强制内部 Markdown 列表恢复正常排版 */
+.news-scroll-container {
+  display: block !important;
+  max-height: 250px !important; 
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  margin: 1em 0 !important;
+
   ul {
-    margin: 0;
-    padding-left: 1.5em; /* 确保圆点有缩进空间 */
-    display: block;
+    padding-left: 2em !important;
+    list-style-type: disc !important;
   }
 
   li {
-    display: list-item;  /* 确保每一条新闻都是独立的一行 */
-    margin-bottom: 0.6em;
-    line-height: 1.4;
-    list-style-type: disc; /* 恢复圆点样式 */
+    display: list-item !important;
+    margin-bottom: 0.5em !important;
+    line-height: 1.5 !important;
   }
 
-  /* 滚动条美化保持不变 */
   &::-webkit-scrollbar {
     width: 6px;
   }
