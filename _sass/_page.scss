@@ -411,89 +411,23 @@
   text-transform: uppercase;
 }
 
-
-/*
-   News Slider
-   ========================================================================== */
-
-.news-slider {
-  max-height: 16em;
-  overflow-y: auto;
-  padding: 0.5em 0;
-  border-radius: $border-radius;
-  background: transparent;
-
-  /* 滑块样式 */
+/* News 滚动容器样式 */
+.news-scroll-container {
+  max-height: 300px;      /* 设置显示 5 条左右的高度，可根据需要微调 */
+  overflow-y: auto;       /* 垂直方向内容溢出时显示滚动条 */
+  overflow-x: hidden;     /* 隐藏水平滚动条 */
+  padding-right: 10px;    /* 为滚动条留出一点间距 */
+  border: 1px solid transparent; /* 保持边框整洁 */
+  
+  /* 自定义滚动条样式（可选，让它更美观） */
   &::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
   }
-
-  &::-webkit-scrollbar-track {
-    background: $light-gray;
-    border-radius: $border-radius;
-  }
-
   &::-webkit-scrollbar-thumb {
-    background: $gray;
-    border-radius: $border-radius;
-
-    &:hover {
-      background: darken($gray, 10%);
-    }
+    background-color: #ccc;
+    border-radius: 10px;
   }
-
-  /* Firefox 滑块 */
-  scrollbar-width: thin;
-  scrollbar-color: $gray $light-gray;
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    list-style: none;
-    margin-bottom: 0.5em;
-    line-height: 1.6;
-  }
-}
-
-/*
-   Pub Slider
-   ========================================================================== */
-
-.pub-slider {
-  max-height: 24em;
-  overflow-y: auto;
-  padding: 0.5em 0;
-  border-radius: $border-radius;
-  background: transparent;
-
-  /* 滑块样式 */
-  &::-webkit-scrollbar {
-    width: 8px;
-  }
-
   &::-webkit-scrollbar-track {
-    background: $light-gray;
-    border-radius: $border-radius;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: $gray;
-    border-radius: $border-radius;
-
-    &:hover {
-      background: darken($gray, 10%);
-    }
-  }
-
-  /* Firefox 滑块 */
-  scrollbar-width: thin;
-  scrollbar-color: $gray $light-gray;
-
-  /* 保持 paper-box 样式 */
-  .paper-box {
-    margin-bottom: 1em;
+    background: transparent;
   }
 }
