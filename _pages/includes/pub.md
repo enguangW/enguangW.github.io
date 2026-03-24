@@ -11,7 +11,7 @@
 <div class='paper-box-image' style="flex: 0 0 40%; min-width: 250px;">
   <div style="position: relative;">
     <div class="badge" style="position: absolute; top: 0; left: 0;">CVPR 2026</div>
-    <img src='images/pre.png' alt="sym" style="width: 100%; display: block;">
+    <img src="images/pre.png" alt="sym" style="width: 100%; display: block;">
   </div>
 </div>
 
@@ -26,7 +26,6 @@
 </div>
 
 </div>
-
 
 
 <!-- - `AAAI 2024` [Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling](https://arxiv.org/abs/2312.11947), Rui Liu, Yifan Hu, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/walker-hyf/ECSS?style=social&label=Code+Stars)](https://github.com/walker-hyf/ECSS) -->
