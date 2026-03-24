@@ -6,7 +6,7 @@
 - *2025.10*: 🎉 One paper is accepted by TCSVT, keywords: Continual Self-supervised Learning
 - *2025.09*: 🎉 One paper is accepted by NeurIPS 2025, keywords: GUI Agent, RL
 - *2025.06*: 🎉 One paper is accepted by TMM, keywords: GCD, SSL
-- *2025.03*: I joined Tencent Youtu Lab <img src='./images/youtu.png' style='width: 5em;'> as a Research Intern, working on MLLMs
+- *2025.03*: I joined Tencent Youtu Lab <img src='./images/youtu.png' style='width: 4em;'> as a Research Intern, working on MLLMs
 - *2025.02*: 🎉 One paper is accepted by CVPR 2025, keywords: GCD, VLM. See you in Nashville!
 - *2024.12*: 🎉 One paper is accepted by TCSVT, keywords: OOD, SSL
 - *2024.07*: 🎉 One paper is accepted by ECCV 2024, keywords: Incremental Learning, Semantic Segmentation
