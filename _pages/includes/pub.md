@@ -1,7 +1,8 @@
 
 # 📝 Publications 
 
-
+<div class="news-container" style="max-height: 600px; padding-left: 10px !important;">
+  
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/pre.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -36,28 +37,8 @@
 - Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
 </div>
 </div>
-{: .news-container}
 
-<style>
-.news-container {
-  display: block;
-  max-height: 500px;
-  overflow-y: scroll;
-  padding-right: 15px;
-  scrollbar-width: thin;
-  scrollbar-color: #999 #e0e0e0;
-}
-.news-container::-webkit-scrollbar-track { background: #e0e0e0; border-radius: 4px; }
-.news-container::-webkit-scrollbar {
-  width: 6px !important;
-  height: 6px !important;
-  display: block !important;
-}
-.news-container::-webkit-scrollbar-thumb {
-  background: #bbb !important; /* 使用中灰色，在白底或透明底上都很明显 */
-  border-radius: 10px;
-}
-</style>
+</div>
 
 <!-- - `AAAI 2024` [Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling](https://arxiv.org/abs/2312.11947), Rui Liu, Yifan Hu, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/walker-hyf/ECSS?style=social&label=Code+Stars)](https://github.com/walker-hyf/ECSS) -->
 
