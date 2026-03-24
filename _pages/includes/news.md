@@ -13,8 +13,7 @@
   ▼ View All News...
 </summary>
 
-<div style="margin-top: 5px;">
-
+<div style="margin-top: 5px;" markdown="1">
 
 - *2025.03*: I joined Tencent Youtu Lab <img src='./images/youtu.png' style='width: 4.8em;'> as a Research Intern, working on MLLMs
 - *2025.02*: 🎉 One paper is accepted by CVPR 2025, keywords: GCD, VLM. See you in Nashville!
@@ -23,19 +22,20 @@
 - *2024.04*: 🎉 One paper is accepted by IJCAI 2024, keywords: GCD, SSL
 
 </div>
+
 </details>
 
 <style>
 /* 优化折叠按钮的外观 */
 summary {
-  list-style: none; /* 隐藏某些浏览器默认的三角形 */
+  list-style: none;
   outline: none;
 }
 summary::-webkit-details-marker {
-  display: none; /* 隐藏 Chrome/Safari 的默认三角形 */
+  display: none;
 }
 summary:hover {
-  color: #003399 !important; /* 鼠标悬停时变色 */
+  color: #003399 !important;
   text-decoration: underline;
 }
 </style>
