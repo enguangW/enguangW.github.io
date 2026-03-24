@@ -3,7 +3,7 @@
 
 <div class="news-container" style="max-height: 600px; padding-left: 10px !important;">
   
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/pre.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2026</div><img src='images/pre.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Predictive Regularization Against Visual Representation Degradation in Multimodal Large Language Models](https://arxiv.org/pdf/2603.20808) \\
@@ -16,7 +16,7 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'>'><div style="position: relative;"><<div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
@@ -27,7 +27,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'>'><div style="position: relative;"><<div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
