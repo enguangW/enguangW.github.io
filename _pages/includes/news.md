@@ -13,7 +13,7 @@
   View All News...
 </summary>
 
-<div style="margin-top: 3px;" markdown="1">
+<div style="margin-top: 5px;" markdown="1">
 
 - *2025.03*: I joined Tencent Youtu Lab <img src='./images/youtu.png' style='width: 4.8em;'> as a Research Intern, working on MLLMs
 - *2025.02*: 🎉 One paper is accepted by CVPR 2025, keywords: GCD, VLM. See you in Nashville!
@@ -31,7 +31,7 @@
   color: #003399;
   text-decoration: underline;
   font-weight: bold;
-  margin: 10px 0 10px 25px;
+  margin: 5px 0 5px 25px;
   list-style: none;
   outline: none;
   display: inline-block;
