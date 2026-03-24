@@ -14,37 +14,46 @@
 - *2024.04*: 🎉 One paper is accepted by IJCAI 2024, keywords: GCD, SSL
 {: .news-container}
 
+
 <style>
+/* 容器基础设置 */
 .news-container {
-  display: block;
+  display: block !important;
   max-height: 200px;
-  overflow-y: scroll; /* 强制开启垂直滚动轴 */
+  overflow-y: scroll !important; /* 强制显示滚动条区域 */
   padding-right: 15px;
-  
-  /* Firefox 浏览器强制显示滚动条 */
-  scrollbar-width: thin;
-  scrollbar-color: #999 #e0e0e0;
+  margin-bottom: 20px;
 }
 
-/* Chrome, Safari, Edge (WebKit 引擎) 强制显示滚动条 */
+/* 针对 Chrome, Safari, Edge 的强制常驻样式 */
 .news-container::-webkit-scrollbar {
-  width: 8px; /* 设置滚动条宽度 */
-  display: block !important; /* 确保不被隐藏 */
+  width: 10px !important; /* 稍微加宽一点，更明显 */
+  background-color: #f0f0f0 !important; /* 轨道背景色 */
+  display: block !important;
 }
 
+/* 滚动条轨道 */
 .news-container::-webkit-scrollbar-track {
-  background: #f1f1f1; /* 滚动条轨道颜色（浅色） */
-  border-radius: 4px;
+  background-color: #f0f0f0 !important; 
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1); /* 添加内阴影增强视觉感 */
 }
 
+/* 滚动条滑块 - 这是最关键的颜色 */
 .news-container::-webkit-scrollbar-thumb {
-  background: #999; /* 滚动条滑块颜色（深色） */
-  border-radius: 4px;
-  border: 1px solid #f1f1f1; /* 增加一点边框，让滑块更清晰 */
+  background-color: #888 !important; /* 较深的灰色，确保可见 */
+  border-radius: 5px;
+  border: 2px solid #f0f0f0; /* 给滑块加个边框，使其看起来有间隔 */
 }
 
-/* 即使鼠标不悬停也保持滑块颜色 */
-.news-container::-webkit-scrollbar-thumb:vertical {
-  min-height: 30px;
+/* 鼠标悬停时滑块变深 */
+.news-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555 !important;
+}
+
+/* 针对 Firefox 的常驻设置 */
+.news-container {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
 }
 </style>
