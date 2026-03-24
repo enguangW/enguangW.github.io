@@ -7,6 +7,7 @@
 
 [Predictive Regularization Against Visual Representation Degradation in Multimodal Large Language Models](https://arxiv.org/pdf/2603.20808) \\
 **Enguang Wang**, Qiang Wang, Yuanchen Wu, Ke Yan, Xinbin Yuan, Shouhong Ding, Xialei Liu, Ming-Ming Cheng
+
 - **Pioneering Discovery**: This paper conducts a systematic diagnosis to unveil the "visual representation degradation" phenomenon in MLLMs, identifying how language-driven training compromises internal visual fidelity at both global and patch levels.
 - **Methodological Innovation**: We introduce Predictive Regularization (PRe), a lightweight self-supervised framework that preserves core visual competence by forcing degraded intermediate features to predict initial visual anchors.
 - **Empirical Results**: Experiments confirm that mitigating this visual degradation effectively boosts vision-language
@@ -17,9 +18,9 @@ performance, underscoring the critical importance of fostering robust internal v
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery
-](https://arxiv.org/pdf/2403.09974) \\
+[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
 **Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
+
 -To tackle the problem that the text encoder can not be used on the unlabelled data, this paper proposes a TES module converting visual embeddings into tokens of the CLIP’s text encoder to generate pseudo-text embeddings.
 - Through the proposed cross-modal instance consistency objective in our dual-branch framework, information from different modalities mutually enhances each other, producing more discriminative classification prototypes.
 - GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
@@ -35,5 +36,4 @@ performance, underscoring the critical importance of fostering robust internal v
 - ``ACL 2023`` [CLAPSpeech: Learning Prosody from Text Context with Contrastive Language-Audio Pre-Training](), Zhenhui Ye, Rongjie Huang, **Yi Ren**, et al.
 - ``ACL 2023`` [FluentSpeech: Stutter-Oriented Automatic Speech Editing with Context-Aware Diffusion Models](), Ziyue Jiang, Qian Yang, Jialong Zuo, Zhenhui Ye, Rongjie Huang, **Yi Ren** and Zhou Zhao
 
->
 
