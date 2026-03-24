@@ -1,6 +1,7 @@
 
 # 📝 Publications 
 
+
   
 <div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2026</div><img src='images/pre.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -15,16 +16,8 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
-**Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
 
-- This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
-- Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -37,6 +30,11 @@
 </div>
 </div>
 
+
+
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -47,13 +45,35 @@
 - Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
 </div>
 </div>
+
+
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
+**Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
+
+- This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
+- Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
+</div>
+</div>
+
+
+
 
 <details>
 <summary style="cursor: pointer; color: #666; font-weight: bold; margin: 10px 0 10px 25px;">
-  ▼ View All News...
+  ▼ View All Publications...
 </summary>
 
 <div style="margin-top: 5px;" markdown="1">
+
+
+
+
   
 <div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -65,6 +85,12 @@
 - Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
 </div>
 </div>
+
+
+
+
+
+
 
 </div>
 
