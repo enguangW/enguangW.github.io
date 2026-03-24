@@ -12,9 +12,7 @@ redirect_from:
 {% include_relative includes/intro.md %}
 
 
-<div class="news-slider">
 {% include_relative includes/news.md %}
-</div>
 
 
 <!-- {% include_relative includes/honers.md %} -->
