@@ -17,7 +17,7 @@
 
 <style>
 .news-container {
-  max-height: 300px;
+  max-height: 100px;
   overflow-y: auto;
   padding-right: 10px;
   scrollbar-width: thin;
