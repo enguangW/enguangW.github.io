@@ -1,7 +1,7 @@
 
 # 📝 Publications 
 
-<div class="news-container" style="max-height: 1600px; padding-left: 10px !important;">
+<div class="news-container" style="max-height: 800px; padding-left: 10px !important;">
   
 <div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2026</div><img src='images/pre.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
