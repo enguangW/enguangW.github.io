@@ -64,9 +64,9 @@
 
 
 
-<details>
-<summary style="cursor: pointer; color: #666; font-weight: bold; margin: 10px 0 10px 25px;">
-  ▼ View All Publications...
+<details class="news-details">
+<summary class="view-all-button">
+  View All Publications...
 </summary>
 
 <div style="margin-top: 5px;" markdown="1">
@@ -96,19 +96,46 @@
 
 </details>
 
+
+
+
+
+
 <style>
-/* 优化折叠按钮的外观 */
-summary {
+/* 1. 基础按钮样式：蓝色、下划线、隐藏默认三角 */
+.view-all-button {
+  cursor: pointer;
+  color: #003399;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 10px 0 10px 25px;
   list-style: none;
   outline: none;
+  display: inline-block;
+  position: relative;
 }
-summary::-webkit-details-marker {
+
+.view-all-button::-webkit-details-marker {
   display: none;
 }
-summary:hover {
-  color: #003399 !important;
-  text-decoration: underline;
+
+/* 2. 使用伪元素添加自定义动态三角形 */
+.view-all-button::before {
+  content: "▶"; /* 默认折叠状态：向右的小三角 */
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 12px;
+  text-decoration: none !important; /* 三角形不需要下划线 */
+  transition: transform 0.2s ease;  /* 添加平滑旋转动画 */
+}
+
+/* 3. 当父级 details 处于 open 状态时，改变三角形 */
+.news-details[open] .view-all-button::before {
+  content: "▼"; /* 展开状态：向下的三角形 */
+}
+
+.view-all-button:hover {
+  color: #001a66;
 }
 </style>
-
 <!-- - `AAAI 2024` [Emotion Rendering for Conversational Speech Synthesis with Heterogeneous Graph-Based Context Modeling](https://arxiv.org/abs/2312.11947), Rui Liu, Yifan Hu, **Yi Ren**, et al. [![](https://img.shields.io/github/stars/walker-hyf/ECSS?style=social&label=Code+Stars)](https://github.com/walker-hyf/ECSS) -->
