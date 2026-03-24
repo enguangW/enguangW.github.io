@@ -15,33 +15,23 @@
 {: .news-container}
 
 <style>
-/* 终极视觉暗示方案 */
 .news-container {
-  display: block !important;
-  max-height: 220px;
-  overflow-y: auto;
-  padding: 10px 15px 10px 10px;
-  margin-bottom: 20px;
-  
-  /* 关键：增加背景色和边框，让它看起来像个独立的框 */
-  background-color: #fafafa; 
-  border: 1px solid #eee;
-  border-radius: 6px;
-  
-  /* 增加内阴影，营造“下沉”感，暗示内部可滚动 */
-  box-shadow: inset 0 0 8px rgba(0,0,0,0.05);
+  display: block;
+  max-height: 200px;
+  overflow-y: scroll;
+  padding-right: 15px;
+  scrollbar-width: thin;
+  scrollbar-color: #999 #e0e0e0;
 }
-
-/* 强制 Webkit 滚动条（即使系统隐藏，这里也尽量争取显示） */
+.news-container::-webkit-scrollbar-track { background: #e0e0e0; border-radius: 4px; }
 .news-container::-webkit-scrollbar {
   width: 6px !important;
+  height: 6px !important;
   display: block !important;
 }
 .news-container::-webkit-scrollbar-thumb {
-  background: #ccc !important;
+  background: #bbb !important; /* 使用中灰色，在白底或透明底上都很明显 */
   border-radius: 10px;
 }
-.news-container::-webkit-scrollbar-track {
-  background: transparent;
-}
+</style>
 </style>
