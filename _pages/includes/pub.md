@@ -108,7 +108,7 @@
   color: #003399;
   text-decoration: underline;
   font-weight: bold;
-  margin: 10px 0 10px 25px;
+  margin: 5px 0 5px 25px;
   list-style: none;
   outline: none;
   display: inline-block;
