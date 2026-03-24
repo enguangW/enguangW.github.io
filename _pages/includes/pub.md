@@ -1,7 +1,8 @@
 
 # 📝 Publications 
 
-
+<div class="news-container">
+  
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/pre.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -34,3 +35,40 @@ performance, underscoring the critical importance of fostering robust internal v
 - ``ICML 2023`` [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://text-to-audio.github.io/paper.pdf), Rongjie Huang, Jiawei Huang, Dongchao Yang, **Yi Ren**, et al.
 - ``ACL 2023`` [CLAPSpeech: Learning Prosody from Text Context with Contrastive Language-Audio Pre-Training](), Zhenhui Ye, Rongjie Huang, **Yi Ren**, et al.
 - ``ACL 2023`` [FluentSpeech: Stutter-Oriented Automatic Speech Editing with Context-Aware Diffusion Models](), Ziyue Jiang, Qian Yang, Jialong Zuo, Zhenhui Ye, Rongjie Huang, **Yi Ren** and Zhou Zhao
+
+
+</div>
+
+<style>
+.news-container {
+  max-height: 1000px;
+  overflow-y: scroll;
+  padding-right: 15px;
+  scrollbar-width: 8px;
+  scrollbar-color: #999 #e0e0e0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.news-container::-webkit-scrollbar {
+  width: 8px;
+  background-color: #e0e0e0;
+  visibility: visible !important;
+}
+
+.news-container::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 4px;
+  visibility: visible !important;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 4px;
+  visibility: visible !important;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+</style>
+
