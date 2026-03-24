@@ -8,10 +8,9 @@
 [Predictive Regularization Against Visual Representation Degradation in Multimodal Large Language Models](https://arxiv.org/pdf/2603.20808) \\
 **Enguang Wang**, Qiang Wang, Yuanchen Wu, Ke Yan, Xinbin Yuan, Shouhong Ding, Xialei Liu, Ming-Ming Cheng
 
-- **Pioneering Discovery**: This paper conducts a systematic diagnosis to unveil the "visual representation degradation" phenomenon in MLLMs, identifying how language-driven training compromises internal visual fidelity at both global and patch levels.
-- **Methodological Innovation**: We introduce Predictive Regularization (PRe), a lightweight self-supervised framework that preserves core visual competence by forcing degraded intermediate features to predict initial visual anchors.
-- **Empirical Results**: Experiments confirm that mitigating this visual degradation effectively boosts vision-language
-performance, underscoring the critical importance of fostering robust internal visual representations within MLLMs.
+- This paper conducts a systematic diagnosis to unveil the "visual representation degradation" phenomenon in MLLMs, identifying how language-driven training compromises internal visual fidelity at both global and patch levels.
+- We introduce Predictive Regularization (PRe), a lightweight self-supervised framework that preserves core visual competence by forcing degraded intermediate features to predict initial visual anchors.
+- Experiments confirm that mitigating this visual degradation effectively boosts vision-language performance, underscoring the critical importance of fostering robust internal visual representations within MLLMs.
 </div>
 </div>
 
@@ -22,8 +21,8 @@ performance, underscoring the critical importance of fostering robust internal v
 [GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
 **Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
 
--To tackle the problem that the text encoder can not be used on the unlabelled data, this paper proposes a TES module converting visual embeddings into tokens of the CLIP’s text encoder to generate pseudo-text embeddings.
-- Through the proposed cross-modal instance consistency objective in our dual-branch framework, information from different modalities mutually enhances each other, producing more discriminative classification prototypes.
+- This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
+- Through cross-modal distillation and multi-modal joint training, information from different modalities mutually enhances each other, producing more discriminative classification prototypes.
 - GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
 </div>
 </div>
