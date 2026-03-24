@@ -12,4 +12,18 @@
 - *2024.12*: 🎉 One paper is accepted by TCSVT, keywords: OOD, SSL
 - *2024.07*: 🎉 One paper is accepted by ECCV 2024, keywords: Incremental Learning, Semantic Segmentation
 - *2024.04*: 🎉 One paper is accepted by IJCAI 2024, keywords: GCD, SSL
+{: .news-container}
 
+<style>
+.news-container {
+  display: block;
+  max-height: 200px;
+  overflow-y: scroll;
+  padding-right: 15px;
+  scrollbar-width: thin;
+  scrollbar-color: #999 #e0e0e0;
+}
+.news-container::-webkit-scrollbar { width: 8px; }
+.news-container::-webkit-scrollbar-track { background: #e0e0e0; border-radius: 4px; }
+.news-container::-webkit-scrollbar-thumb { background: #999; border-radius: 4px; }
+</style>
