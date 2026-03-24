@@ -413,21 +413,33 @@
 
 /* News 滚动容器样式 */
 .news-scroll-container {
-  max-height: 300px;      /* 设置显示 5 条左右的高度，可根据需要微调 */
-  overflow-y: auto;       /* 垂直方向内容溢出时显示滚动条 */
-  overflow-x: hidden;     /* 隐藏水平滚动条 */
-  padding-right: 10px;    /* 为滚动条留出一点间距 */
-  border: 1px solid transparent; /* 保持边框整洁 */
-  
-  /* 自定义滚动条样式（可选，让它更美观） */
+  display: block;        /* 确保是块级元素 */
+  max-height: 250px;     /* 调低一点高度（约 5 行），确保内容溢出 */
+  overflow-y: auto;      /* 溢出时显示滚动条 */
+  overflow-x: hidden;
+  padding: 0 10px 0 0;   /* 留出滚动条空间 */
+  margin: 1em 0;
+
+  /* 强制内部 Markdown 列表恢复正常排版 */
+  ul {
+    margin: 0;
+    padding-left: 1.5em; /* 确保圆点有缩进空间 */
+    display: block;
+  }
+
+  li {
+    display: list-item;  /* 确保每一条新闻都是独立的一行 */
+    margin-bottom: 0.6em;
+    line-height: 1.4;
+    list-style-type: disc; /* 恢复圆点样式 */
+  }
+
+  /* 滚动条美化保持不变 */
   &::-webkit-scrollbar {
     width: 6px;
   }
   &::-webkit-scrollbar-thumb {
     background-color: #ccc;
     border-radius: 10px;
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
   }
 }
