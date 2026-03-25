@@ -85,7 +85,18 @@ Zhimao Peng, **Enguang Wan**g, Xialei Liu, Ming-Ming Cheng
 </div>
 </div>
 
+  
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TMM</div><img src='images/tmmsharp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[Sharpness-aware Dynamic Anchor Selection for Generalized Category Discovery](https://arxiv.org/pdf/2512.12925) \\
+Zhimao Peng, **Enguang Wan**g, Fei Yang, Xialei Liu, Ming-Ming Cheng
+
+- This paper introduces a loss sharpness penalty into GCD, which generates more robust pseudo labels for training samples by minimizing the worst-case sharpness.
+- It proposes a novel dynamic anchor selection strategy to further improve the performance by assigning hard pseudo-labels to the selected unknown classes anchors.
+- Experimental results show a state-of-the-art performance
+</div>
+</div>
 
 
 
