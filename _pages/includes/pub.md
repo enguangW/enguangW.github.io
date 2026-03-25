@@ -122,6 +122,20 @@ Zhengyuan Xie, Haiquan Lu, Jia-wen Xiao, **Enguang Wang**, Le Zhang, Xialei Liu
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TMM</div><img src='images/ccsl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Bridging Inter-task Gap of Continual Self-supervised Learning with External Data](https://ieeexplore.ieee.org/abstract/document/11219200) \\
+Haori Lu, Xusheng Cao, Linlan Huang, **Enguang Wang**, Fei Yang, Xialei Liu
+
+- This paper points out that existing CCSSL methods overlook the issue of inter-task data comparisons, and proposes BGE to incorporate external data into training to address this gap.
+• It proposes the One-Propose-One (OPO) sampling algorithm to sample external data that are relevant to tasks
+and sufficiently diverse, while also filtering out OOD data that are not beneficial for learning.
+• Experiments show that BGE can be seamlessly integrated into existing CCSSL methods and consistently yields significant improvement.
+</div>
+</div>
+
+
 </div>
 
 </details>
