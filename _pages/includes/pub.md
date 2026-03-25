@@ -129,7 +129,7 @@ Zhengyuan Xie, Haiquan Lu, Jia-wen Xiao, **Enguang Wang**, Le Zhang, Xialei Liu
 Haori Lu, Xusheng Cao, Linlan Huang, **Enguang Wang**, Fei Yang, Xialei Liu
 
 - This paper points out that existing CCSSL methods overlook the issue of inter-task data comparisons, and proposes BGE to incorporate external data into training to address this gap. It proposes a sampling algorithm to sample external data that are relevant to tasks and sufficiently diverse, while also filtering out OOD data.
-• Experiments show that BGE can be seamlessly integrated into existing CCSSL methods and consistently yields significant improvement.
+- Experiments show that BGE can be seamlessly integrated into existing CCSSL methods and consistently yields significant improvement.
 </div>
 </div>
 
@@ -142,7 +142,7 @@ Haori Lu, Xusheng Cao, Linlan Huang, **Enguang Wang**, Fei Yang, Xialei Liu
 Haori Lu, Xusheng Cao, Linlan Huang, **Enguang Wang**, Fei Yang, Xialei Liu
 
 - This paper highlights that the testing stages can help reduce forgetting and proposes a novel test-time semantic evolution method, RoSE, which is based on a tailored auxiliary task designed to restore forgotten knowledge. During test time, it computes the analytical solution rather than the gradient for updating the model, addressing the limitations of online training.
-• Extensive experiments show that RoSE outperforms most state-of-the-art NECIL methods across various scenarios.
+- Extensive experiments show that RoSE outperforms most state-of-the-art NECIL methods across various scenarios.
 </div>
 </div>
 
