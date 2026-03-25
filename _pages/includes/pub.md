@@ -106,7 +106,7 @@ Zhimao Peng, **Enguang Wan**g, Fei Yang, Xialei Liu, Ming-Ming Cheng
 Zhimao Peng, **Enguang Wan**g, Xialei Liu, Ming-Ming Cheng
 
 - This paper  analyzes the limitations of existing SCOOD methods based on the clustering-based binary In-distribution Filtering strategy and proposes to use dual-threshold ternary sample assignment to select more reliable auxiliary ID and OOD samples for the SCOOD task.
-- It proposes a predictive sample assignment framework for the SCOOD task, which includes a threshold sample assignment mechanism, an ID/OOD concept contrastive representation learning loss, and an additional sample retraining process. Experiments show a state-of-the-art performance
+- It proposes a predictive sample assignment framework for the SCOOD task, which includes a threshold sample assignment mechanism, an ID/OOD concept contrastive representation learning loss, and an additional sample retraining process. Experiments show a state-of-the-art performance.
 </div>
 </div>
 
@@ -143,6 +143,18 @@ Haori Lu, Xusheng Cao, Linlan Huang, **Enguang Wang**, Fei Yang, Xialei Liu
 
 - This paper highlights that the testing stages can help reduce forgetting and proposes a novel test-time semantic evolution method, RoSE, which is based on a tailored auxiliary task designed to restore forgotten knowledge. During test time, it computes the analytical solution rather than the gradient for updating the model, addressing the limitations of online training.
 - Extensive experiments show that RoSE outperforms most state-of-the-art NECIL methods across various scenarios.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVMJ</div><img src='images/cvmj.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[See more, know more: Richer prior knowledge for novel class discovery](https://ieeexplore.ieee.org/abstract/document/11396455) \\
+Zhimao Peng, **Enguang Wang**, Xialei Liu, Ming-Ming Cheng
+
+- This paper proposes a module to generate auxiliary dummy classes to learn richer prior knowledge for NCD tasks, so that the model can generate less noisy pseudo labels in unsupervised clustering. It also introduces a cluster-guided dummy classes synthesis strategy, the number of synthesized dummy classes can be significantly reduced and further improve the NCD performance.
+- The proposed method can outperform existing methods by a significant margin
 </div>
 </div>
 
