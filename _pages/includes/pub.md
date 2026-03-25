@@ -76,14 +76,15 @@ Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, **Enguan
 
 
   
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">IJCAI 2024</div><img src='images/ijcai2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
-**Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
+[Let’s Start Over: Retraining with Selective Samples for Generalized Category Discovery](https://www.ijcai.org/proceedings/2024/0532.pdf) \\
+Zhimao Peng, **Enguang Wan**g, Xialei Liu, Ming-Ming Cheng
 
-- This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
-- Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
+- This paper introduces a novel method using Nearest Neighbor Distance-aware Label Consistency sample selection. It creates class-consistent subsets for novel class sample clusters from the current GCD method, acting as “pseudo-labeled sets” to mitigate representation bias.
+- It proposes progressive supervised representation learning with selected samples to optimize the trade-off between quantity and purity in each subset.
+- The results demonstrate the superiority of the method in achieving improved performance in GCD tasks.
 </div>
 </div>
 
