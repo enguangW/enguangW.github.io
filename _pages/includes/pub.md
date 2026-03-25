@@ -110,6 +110,16 @@ Zhimao Peng, **Enguang Wan**g, Xialei Liu, Ming-Ming Cheng
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">ECCV 2024</div><img src='images/nest.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Early Preparation Pays Off: New Classifier Pre-tuning for Class Incremental Semantic Segmentation](https://arxiv.org/pdf/2512.12906) \\
+Zhengyuan Xie, Haiquan Lu, Jia-wen Xiao, **Enguang Wang**, Le Zhang, Xialei Liu
+
+- This paper proposes a new classifier pre-tuning method that learns a transformation from all old classifiers to generate new classifiers with previous knowledge before the formal training process. It optimizes the initialization of transformation matrices, striking a balance between stability and plasticity.
+- Results show that the method can be readily integrated into other approaches and significantly enhances their performance.
+</div>
+</div>
 
 
 </div>
