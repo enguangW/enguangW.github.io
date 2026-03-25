@@ -47,7 +47,7 @@ Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, **Enguan
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TMM</div><img src='images/partgcd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">IEEE TMM</div><img src='images/partgcd.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Learning Part Knowledge to Facilitate Category Understanding for Fine-Grained Generalized Category Discovery](https://arxiv.org/pdf/2503.16782) \\
@@ -86,7 +86,7 @@ Zhimao Peng, **Enguang Wan**g, Xialei Liu, Ming-Ming Cheng
 </div>
 
   
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TMM</div><img src='images/tmmsharp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">IEEE TMM</div><img src='images/tmmsharp.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Sharpness-aware Dynamic Anchor Selection for Generalized Category Discovery](https://arxiv.org/pdf/2512.12925) \\
@@ -99,7 +99,7 @@ Zhimao Peng, **Enguang Wan**g, Fei Yang, Xialei Liu, Ming-Ming Cheng
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TCSVT</div><img src='images/tcsvtood.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">IEEE TCSVT</div><img src='images/tcsvtood.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Predictive sample assignment for semantically coherent out-of-distribution detection](https://arxiv.org/pdf/2512.12906) \\
@@ -122,7 +122,7 @@ Zhengyuan Xie, Haiquan Lu, Jia-wen Xiao, **Enguang Wang**, Le Zhang, Xialei Liu
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TCSVT</div><img src='images/ccsl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">IEEE TCSVT</div><img src='images/ccsl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Bridging Inter-task Gap of Continual Self-supervised Learning with External Data](https://ieeexplore.ieee.org/abstract/document/11219200) \\
@@ -135,7 +135,7 @@ Haori Lu, Xusheng Cao, Linlan Huang, **Enguang Wang**, Fei Yang, Xialei Liu
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TMM</div><img src='images/rose.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">IEEE TMM</div><img src='images/rose.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Restoring Forgotten Knowledge in Non-Exemplar Class Incremental Learning through Test-Time Semantic Evolution](https://arxiv.org/pdf/2503.16793?) \\
