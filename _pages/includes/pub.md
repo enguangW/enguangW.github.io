@@ -35,11 +35,11 @@
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">CVPR 2025</div><img src='images/get.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">NeurIPS 2025</div><img src='images/segui.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
-**Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
+[Enhancing Visual Grounding for GUI Agents via Self-Evolutionary Reinforcement Learning](https://arxiv.org/pdf/2505.12370) \\
+Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, **Enguang Wang**, Qibin Hou, Jinwei Chen, Peng-Tao Jiang, Bo Li
 
 - This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
 - Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
@@ -56,8 +56,8 @@
 [GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery](https://arxiv.org/pdf/2403.09974) \\
 **Enguang Wang**, Zhimao Peng, Zhengyuan Xie, Fei Yang, Xialei Liu, Ming-Ming Cheng
 
-- This paper introduces textual information for the GCD task. By projecting visual features into the input space of the CLIP's text encoder, it solves the problem that unlabeled data cannot be processed by the text encoder.
-- Through cross-modal distillation and multi-modal joint training, GET achieves state-of-the-art results on multiple benchmarks, providing GCD a multi-modal paradigm.
+- This paper builds a GUI agent with an RL-based framework that incorporates three core strategies: (1) seed data curation to ensure high-quality training samples, (2) a dense policy gradient that provides continuous feedback based on prediction accuracy, and (3) a self-evolutionary reinforcement finetuning mechanism that iteratively refines the model using attention maps. 
+- With only 3k training samples, our 7B-model achieves SOTA results on three grounding benchmarks.
 </div>
 </div>
 
