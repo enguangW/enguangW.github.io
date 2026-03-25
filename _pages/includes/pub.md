@@ -99,6 +99,16 @@ Zhimao Peng, **Enguang Wan**g, Fei Yang, Xialei Liu, Ming-Ming Cheng
 </div>
 
 
+<div class='paper-box'><div class='paper-box-image'><div style="position: relative;"><div class="badge">TCSVT</div><img src='images/tcsvtood.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Predictive sample assignment for semantically coherent out-of-distribution detection](https://arxiv.org/pdf/2512.12906) \\
+Zhimao Peng, **Enguang Wan**g, Xialei Liu, Ming-Ming Cheng
+
+- This paper  analyzes the limitations of existing SCOOD methods based on the clustering-based binary In-distribution Filtering strategy and proposes to use dual-threshold ternary sample assignment to select more reliable auxiliary ID and OOD samples for the SCOOD task.
+- It proposes a predictive sample assignment framework for the SCOOD task, which includes a threshold sample assignment mechanism, an ID/OOD concept contrastive representation learning loss, and an additional sample retraining process. Experiments show a state-of-the-art performance
+</div>
+</div>
 
 
 
