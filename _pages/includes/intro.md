@@ -2,4 +2,13 @@ I am currently a third-year Master's student at the College of Computer Science,
 
 My research interests lie in **Multi-modal Large Language Models (MLLMs)** and **Representation Learning**. I firmly believe that representation is the cornerstone of AI systems, and I am dedicated to exploring robust and efficient representation learning approaches.
 
+I am currently an Applied Research Intern at ByteDance, where I focus on the application and system design of Agentic MLLMs, specifically exploring memory mechanisms and Agentic RL.
+
+In parallel, my recent academic research remains dedicated to the core foundations and reliability of multimodal systems:
+
+- AI Safety: Investigating adversarial attacks and robustness for agents.
+
+- Representation Learning: Designing Text-Conditioned Encoders to improve cross-modal alignment and foundational visual representation for MLLMs.
+
+
 I am expected to graduate in 2026.06. **I am currently actively seeking research-oriented job opportunities (Research Scientist/Engineer)**. If you have potential openings or are seeking any form of **academic cooperation**, please feel free to email me.
