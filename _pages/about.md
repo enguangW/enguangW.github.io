@@ -25,7 +25,7 @@ redirect_from:
 <br>
 <hr>
 <div style="text-align: center; margin-top: 2em; color: grey; font-family: sans-serif;">
-  <div id="clustrmaps-widget" style="width: 20%; min-width: 180px; margin: 0 auto;">
+  <div id="clustrmaps-widget" style="width: 10%; margin: 0 auto;">
     <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=q4WSiscPxpxKAySLfbkUiUMnymxS7VJhuspuymBk7is"></script>
   </div>
   
