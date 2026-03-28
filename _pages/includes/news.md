@@ -8,7 +8,7 @@
 - *2025.09*: 🎉 One paper is accepted by NeurIPS 2025, keywords: GUI Agent, RL
 - *2025.06*: 🎉 One paper is accepted by TMM, keywords: GCD, SSL
 
-<details class="news-details">
+<details class="news-details" open>
 <summary class="view-all-button">
   View All News...
 </summary>
