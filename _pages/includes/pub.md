@@ -62,7 +62,7 @@ Xinbin Yuan, Jian Zhang, Kaixin Li, Zhuoxuan Cai, Lujian Yao, Jie Chen, **Enguan
 
 
 
-<details class="news-details">
+<details class="news-details" open>
 <summary class="view-all-button">
   View All Publications...
 </summary>
