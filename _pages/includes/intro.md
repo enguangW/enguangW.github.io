@@ -4,10 +4,13 @@ My research interests lie in **Multi-modal Large Language Models (MLLMs)** and *
 
 I am currently an Applied Research Intern at ByteDance, where I focus on the application and system design of Agentic MLLMs, specifically exploring memory mechanisms and Agentic RL.
 
-In parallel, my recent academic research remains dedicated to the core foundations and reliability of multimodal systems:
 
-- **AI Safety**: Investigating adversarial attacks and robustness for agents.
+My current research remains dedicated to enhancing the efficiency, safety, and foundational representation of MLLMs:
+
+- **Visual Latent Reasoning**: I am exploring collaborative optimization of state-conditioned and reasoning latents to achieve implicit "Chain-of-Thought" reasoning. By enhancing latent information density through decoder-based refinement, this approach aims to boost reasoning performance while significantly reducing inference costs. My experiments also investigate latent degradation issues in recent latent reasoning methods. 
+- **Efficient Capability Alignment**: I am investigating methods to rectify and activate model capabilities using a minimal set of anchor tokens, aiming to bridge the performance gap between base models and RL-aligned models. This research focuses on "switching" models into high-reasoning states without the prohibitive cost of full-scale Reinforcement Learning. 
 - **Representation Learning**: Designing Text-Conditioned Encoders to improve cross-modal alignment and foundational visual representation for MLLMs.
+- **AI Safety**: Investigating adversarial attacks and robustness for agents.
 
 
 I am expected to graduate in 2026.06. **I am currently actively seeking research-oriented job opportunities (Research Scientist/Engineer)**. If you have **potential openings** or are seeking any form of **academic cooperation**, please feel free to email me.
