@@ -6,6 +6,6 @@
 
 # 💻 Internships
 - **ByteDance** <img src='./images/bytedance.jpg' style='width: 6em;'>, Shanghai, China  
-  *2026.03 - Present*, Applied Research Intern, focus on agentic MLLM and its application.
+  *2026.03 - 2026.06*, Applied Research Intern, focus on agentic MLLM and its application.
 - **Tencent Youtu Lab** <img src='./images/youtu.png' style='width: 4.8em;'>, Shanghai, China  
   *2025.03 - 2025.10*, Research Intern, focus on MLLMs' visual perception.
