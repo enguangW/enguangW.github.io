@@ -1,5 +1,7 @@
 # 🔥 News
 
+
+- *2026.06*: I graduated from Nankai University with my Master's degree! Embarking on a new journey into the industry.
 - *2026.03*: I joined Bytedance <img src='./images/bytedance.jpg' style='width: 6em;'> as a Research Intern, working on Agentic MLLMs
 - *2026.03*: 🎉 One paper is accepted by CVPR 2026, keywords: MLLMs, Visual Perception, Pretraining. See you in Denver!
 - *2026.03*: 🎉 One paper is accepted by TMM, keywords: Incremental Learning
