@@ -1,5 +1,5 @@
 # 🔥 News
-- *2026.07*: 🚀 I joined Inclusion AI as a Senior Algorithm Engineer, focusing on Multimodal LLMs.
+- *2026.07*: 🚀 I joined [<font color="#003399">Inclusion AI</font>](https://www.inclusion-ai.org/) <img src='./images/inclusion.png' style='width: 6em;'>  as a Senior Algorithm Engineer, focusing on Multimodal LLMs.
 - *2026.06*: 🚀 I graduated from [<font color="#003399">Nankai University</font>](https://en.nankai.edu.cn/) <img src='./images/xiaohui.png' style='width: 6em;'> with my Master's degree! Embarking on a new journey into the industry.
 - *2026.03*: 🚀 I joined [<font color="#003399">ByteDance</font>](https://www.bytedance.com/) <img src='./images/bytedance.jpg' style='width: 6em;'> as an Applied Research Intern, working on Agentic MLLMs
 - *2026.03*: 🎉 One paper is accepted by CVPR 2026, keywords: MLLMs, Visual Perception, Pretraining. See you in Denver!
